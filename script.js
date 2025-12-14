@@ -13,7 +13,7 @@ const journalEntries = [
     image: 'image1/2.jpg', 
     title: 'MATA TECHNOLOGIES Inc.', 
     location: 'Cebu City', 
-    date: 'Day 1', 
+    date: 'Day 3', 
     description: 'MATA Technologies, Inc. is an IT solutions company that delivers innovative technology services and systems to support business operations and digital transformation. The company focuses on providing reliable, efficient, and customized IT solutions tailored to client needs.' 
   },
   { 
@@ -21,7 +21,7 @@ const journalEntries = [
     image: 'image1/3.jpg', 
     title: 'Educational Tour Destination', 
     location: 'Tagbilaran City, Bohol', 
-    date: 'Day 2', 
+    date: 'Day 3', 
     description: 'Bohol is a beautiful province in the Philippines, known for its rich cultural heritage, stunning natural landscapes, and vibrant tourism industry. It is home to famous attractions such as the Chocolate Hills, Panglao Island, and the Philippine tarsier, one of the world\'s smallest primates.' 
   },
   { 
@@ -45,7 +45,7 @@ const journalEntries = [
     image: 'image1/7.jpg', 
     title: 'CodeChum', 
     location: 'Cebu City', 
-    date: 'Day 1', 
+    date: 'Day 2', 
     description: 'CodeChum is an innovative EdTech startup based in Cebu, Philippines that provides a web-based learning platform designed to make programming education more accessible, interactive, and effective. The platform supports a built-in programming curriculum aligned with educational standards.' 
   },
 ];
@@ -275,4 +275,5 @@ document.addEventListener('DOMContentLoaded', () => {
   renderPages();
   renderFilters();
   renderGallery();
+
 });
