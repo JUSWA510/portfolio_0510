@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mac Joshua Pasinabo - Portfolio</title>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- Particles Background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Header -->
+    <header id="header">
+      <div class="nav-container">
+        <a href="#home" class="logo">MJP</a>
+        <nav id="nav">
+          <a href="#home">Home</a>
+          <a href="#journal">Trip Journal</a>
+          <a href="#certificates">Certificates</a>
+          <a href="#scanned">Printed Journal</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact" class="cta-btn">Contact Me</a>
+        </nav>
+        <button class="menu-toggle" id="menuToggle">☰</button>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="hero-text">
+          <span class="tagline">🎓 Educational Tour Portfolio</span>
+          <h1>
+            Mac Joshua<br/>
+            <span class="gradient-text">Pasinabo</span>
+          </h1>
+          <p>
+            A passionate third-year BS Information Technology student dedicated to innovation, 
+            problem-solving, and creating impactful digital solutions through cutting-edge technology.
+          </p>
+          <div class="hero-buttons">
+            <a href="#journal" class="btn btn-primary">
+              Explore Journey →
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              Get In Touch
+            </a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-wrapper">
+            <img src="image3/pfp.jpg" alt="Mac Joshua Pasinabo" class="profile-pic">
+            <div class="floating-card card-1">
+              <div class="icon">💻</div>
+              <h4>Web Developer</h4>
+            </div>
+            <div class="floating-card card-2">
+              <div class="icon">🚀</div>
+              <h4>Tech Enthusiast</h4>
+            </div>
+            <div class="floating-card card-3">
+              <div class="icon">🎯</div>
+              <h4>Problem Solver</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Journal Section -->
+    <section class="section-bg" id="journal">
+      <div class="section-header">
+        <div class="section-tag">✨ Memories & Experiences</div>
+        <h2 class="section-title">Educational Tour Visits</h2>
+        <p class="section-description">
+          Capturing transformative moments and invaluable lessons from my educational journey
+        </p>
+      </div>
+      <div class="grid grid-3" id="journalGrid"></div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates">
+      <div class="section-header">
+        <div class="section-tag" style="color: var(--accent)">🏆 Achievements</div>
+        <h2 class="section-title" style="color: white">Certificates & Awards</h2>
+        <p class="section-description" style="color: rgba(255,255,255,0.9)">
+          Recognition and certifications earned throughout my academic excellence
+        </p>
+      </div>
+      <div class="grid grid-3" id="certGrid"></div>
+    </section>
+
+    <!-- Scanned Journal Section -->
+    <section class="section-bg" id="scanned">
+      <div class="section-header">
+        <div class="section-tag">📖 Documentation</div>
+        <h2 class="section-title">Printed Journal Pages</h2>
+        <p class="section-description">
+          Every page tells a story - my official WATT educational trip documentation
+        </p>
+      </div>
+      <div class="grid grid-4" id="pagesGrid"></div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+      <div class="section-header">
+        <div class="section-tag" style="color: var(--accent)">📸 Visual Memories</div>
+        <h2 class="section-title" style="color: white">Photo Gallery</h2>
+        <p class="section-description" style="color: rgba(255,255,255,0.9)">
+          A collection of unforgettable moments captured throughout the journey
+        </p>
+      </div>
+      <div class="filters" id="filters"></div>
+      <div class="masonry" id="galleryGrid"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+      <div class="footer-content">
+        <h3 class="footer-title">Let's Connect!</h3>
+        <p class="footer-description">
+          Have questions about my journey or want to collaborate? I'd love to hear from you!
+        </p>
+        <div class="contact-info">
+          <a href="mailto:macjosha.pasinabo@hcdc.edu.ph" class="contact-item">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+            </svg>
+            macjosha.pasinabo@hcdc.edu.ph
+          </a>
+          <div class="contact-item">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+            </svg>
+            Davao City, Philippines
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>Made with ❤️ and ☕ by Mac Joshua Pasinabo</p>
+          <p>© 2025 All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+      <div class="lightbox-content">
+        <button class="lightbox-close" id="closeLightbox">×</button>
+        <img id="lightboxImg" src="" alt="">
+        <p class="lightbox-caption" id="lightboxCaption"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
